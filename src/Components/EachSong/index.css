@@ -1,0 +1,43 @@
+.each-song-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vh;
+}
+
+.track {
+  width: 105px;
+  margin-right: 12px;
+}
+
+.safe-container {
+  display: flex;
+  align-items: center;
+}
+
+.song-name {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.song-genre {
+  color: #3b82f6;
+  font-size: 16px;
+}
+
+.duration {
+  color: #ffffff;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.delete-btn {
+  color: #ffffff;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
